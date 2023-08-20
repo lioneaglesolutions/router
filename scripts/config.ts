@@ -171,7 +171,7 @@ export const packages: Package[] = [
     builds: [
       {
         jsName: 'VueRouter',
-        entryFile: 'src/index.ts',
+        entryFile: 'src/index.tsx',
         globals: {
           vue: 'Vue',
         },
