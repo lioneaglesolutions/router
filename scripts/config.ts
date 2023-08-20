@@ -164,6 +164,20 @@ export const packages: Package[] = [
       },
     ],
   },
+  {
+    name: '@tanstack/vue-router',
+    packageDir: 'vue-router',
+    srcDir: 'src',
+    builds: [
+      {
+        jsName: 'VueRouter',
+        entryFile: 'src/index.ts',
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    ],
+  },
 ]
 
 export const latestBranch = 'main'
@@ -190,6 +204,7 @@ export const branchConfigs: Record<string, BranchConfig> = {
 export const rootDir = path.resolve(__dirname, '..')
 export const examplesDirs = [
   'examples/react',
+  'examples/vue',
   // 'examples/solid',
   // 'examples/svelte',
   // 'examples/vue',

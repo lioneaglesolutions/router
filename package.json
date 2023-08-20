@@ -21,7 +21,8 @@
   "workspaces": [
     "./packages/*",
     "./examples/react/*",
-    "./examples/solid/*"
+    "./examples/solid/*",
+    "./examples/vue/*"
   ],
   "pnpm": {
     "overrides": {
@@ -39,7 +40,8 @@
       "@tanstack/solid-store": "workspace:*",
       "@tanstack/solid-loaders": "workspace:*",
       "@tanstack/solid-actions": "workspace:*",
-      "@tanstack/react-start": "workspace:*"
+      "@tanstack/react-start": "workspace:*",
+      "@tanstack/vue-router": "workspace:*"
     }
   },
   "devDependencies": {

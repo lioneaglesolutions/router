@@ -19,6 +19,7 @@
     "paths": {
       "@tanstack/router-core": ["packages/router-core"],
       "@tanstack/react-router": ["packages/react-router"],
+      "@tanstack/vue-router": ["packages/vue-router"],
       "@tanstack/solid-router": ["packages/solid-router"],
       "@tanstack/router-devtools": ["packages/router-devtools"],
       "@tanstack/loaders": ["packages/loaders"],
