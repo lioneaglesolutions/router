@@ -48,5 +48,11 @@ module.exports = {
       ],
       presets: ['babel-preset-solid'],
     },
+    {
+      include: [
+        './packages/vue-router/**',
+      ],
+      plugins: ["@vue/babel-plugin-jsx"]
+    }
   ],
 }
