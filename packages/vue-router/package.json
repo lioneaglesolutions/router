@@ -1,5 +1,5 @@
 {
-  "name": "@tanstack/react-router",
+  "name": "@tanstack/vue-router",
   "author": "Tanner Linsley",
   "version": "0.0.1-beta.151",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
-    "react",
+    "vue",
     "location",
     "router",
     "routing",
@@ -44,5 +44,8 @@
     "@tanstack/router-core": "workspace:*",
     "@tanstack/react-store": "workspace:*",
     "@gisatcz/cross-package-react-context": "^0.2.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.33"
   }
 }

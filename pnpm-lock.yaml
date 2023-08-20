@@ -193,7 +193,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -263,7 +263,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -333,7 +333,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -400,7 +400,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -464,7 +464,7 @@ importers:
         version: 4.18.0(@tanstack/react-query@4.18.0)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -552,7 +552,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -622,7 +622,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -692,7 +692,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -759,7 +759,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -826,7 +826,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -893,7 +893,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -960,7 +960,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -1057,7 +1057,7 @@ importers:
         version: link:../../../packages/react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -1160,7 +1160,7 @@ importers:
         version: 5.0.0-beta.9(@tanstack/react-query@5.0.0-beta.9)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -1233,7 +1233,7 @@ importers:
         version: 4.18.0(@tanstack/react-query@4.18.0)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../../../packages/vue-router
+        version: link:../../../packages/react-router
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
@@ -1311,6 +1311,9 @@ importers:
         specifier: ^3.3.4
         version: 3.3.4
     devDependencies:
+      '@tanstack/vue-router':
+        specifier: workspace:*
+        version: link:../../../packages/vue-router
       '@vitejs/plugin-vue':
         specifier: ^4.2.3
         version: 4.2.3(vite@4.4.8)(vue@3.3.4)
@@ -1421,7 +1424,7 @@ importers:
         version: link:../react-loaders
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../vue-router
+        version: link:../react-router
       '@tanstack/store':
         specifier: workspace:*
         version: link:../store
@@ -1557,7 +1560,7 @@ importers:
         version: 7.20.6
       '@tanstack/react-router':
         specifier: workspace:*
-        version: link:../vue-router
+        version: link:../react-router
       date-fns:
         specifier: ^2.29.1
         version: 2.29.3
@@ -1590,6 +1593,9 @@ importers:
       tiny-warning:
         specifier: ^1.0.3
         version: 1.0.3
+      vue:
+        specifier: ^3.2.33
+        version: 3.3.4
 
 packages:
 

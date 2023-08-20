@@ -2,8 +2,13 @@
   "composite": true,
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./build/types"
+    "outDir": "./build/types",
+    "jsx": "preserve"
   },
-  "files": ["src/index.ts"],
-  "include": ["src"]
+  "files": [
+    "src/index.ts"
+  ],
+  "include": [
+    "src"
+  ]
 }
